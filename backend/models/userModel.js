@@ -45,7 +45,7 @@ userSchema.statics.signup = async function(email, password) {
 
 }
 
-// Statis login metho
+// Statis login method
 userSchema.statics.login = async function(email, password) {
     
     // Validation
